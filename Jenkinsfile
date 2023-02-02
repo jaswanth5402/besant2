@@ -4,7 +4,7 @@ pipeline {
     stage('download') {
       steps {
         nodejs('my-node') {
-          sh 'nom install'
+          sh 'npm install'
         }
 
       }
